@@ -357,10 +357,10 @@ body.menu-expanded .logo path {
 
 body.menu-expanded .button  path {
     stroke: #fff;
-}
+}   
 
 body.menu-expanded .social-links path, 
-footer .social-links path {
+footer .social-links path[fill*="#00453A"] {
     fill: #fff;
 }
 
@@ -473,7 +473,7 @@ footer .logo svg {
     height: 3.2rem;;
 }
 
-footer svg path {
+footer .logo svg path {
     fill: var(--brand-green-light)
 }
 
